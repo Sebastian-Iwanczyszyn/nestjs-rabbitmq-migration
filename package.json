@@ -1,11 +1,12 @@
 {
-  "name": "rabbitmq-migration",
+  "name": "@purpile-nestjs/rabbitmq-migrations",
   "version": "0.0.0",
   "description": "",
-  "author": "@Purpile",
+  "author": "Purpile",
   "private": false,
   "license": "UNLICENSED",
   "scripts": {
+    "example": "nest start:dev",
     "format": "prettier --write \"example/src/**/*.ts\" \"test/**/*.ts\" \"libs/**/*.ts\"",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",

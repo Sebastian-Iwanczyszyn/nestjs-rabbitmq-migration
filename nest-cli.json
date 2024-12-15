@@ -1,20 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/nest-cli",
   "collection": "@nestjs/schematics",
-  "sourceRoot": "src",
+  "sourceRoot": "example",
   "compilerOptions": {
     "deleteOutDir": true,
     "webpack": true
   },
   "projects": {
-    "rabbitmq-migration": {
-      "type": "library",
-      "root": "libs/rabbitmq-migration",
-      "entryFile": "index",
-      "sourceRoot": "libs/rabbitmq-migration/src",
-      "compilerOptions": {
-        "tsConfigPath": "libs/rabbitmq-migration/tsconfig.lib.json"
-      }
-    }
   }
 }
